@@ -12,7 +12,6 @@ div {
 .lower-form {
 }
 
-
 // actual styles
 $small: 12px;
 $medium: 18px;
@@ -20,11 +19,11 @@ $large: 27px;
 $xl: 54px;
 $block: 108px;
 
-$background-color: #FFFFFF;
-$left-color: #6D7993;
-$right-color: #96858F;
-$results-color: #DDDDDD;
-$collide-color: #9099A2;
+$background-color: #ffffff;
+$left-color: #6d7993;
+$right-color: #96858f;
+$results-color: #dddddd;
+$collide-color: #9099a2;
 
 body {
   background-color: $background-color;
@@ -42,7 +41,7 @@ h1 {
 }
 
 .upper-form {
-  height: $block + 2*$small + $large;
+  height: $block + 2 * $small + $large;
   position: relative;
 }
 
@@ -129,7 +128,7 @@ h1 {
   text-align: center;
 }
 
-input[type=submit] {
+input[type="submit"] {
   margin-top: $medium;
   padding: $small $large;
   background-color: $results-color;
@@ -138,7 +137,7 @@ input[type=submit] {
   border-radius: 4px;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: black;
   color: $results-color;
 }
