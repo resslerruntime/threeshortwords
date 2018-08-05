@@ -22,12 +22,13 @@ Add the API key to an environment variable
 echo 'export WORDS_API_KEY="your individual api key"' >> ~/.bashrc
 source ~/.bashrc
 ```
+
 ### Setup Server
 
 ```
 git clone https://github.com/rasnom/threeshortwords.git
 cd threeshortwords
-bundle install 
+bundle install
 rails db:create
 rails db:migrate
 rails server
@@ -35,20 +36,20 @@ rails server
 
 ## Tech Stack
 
-* Ruby (2.3.1)
-* Rails (5.1.3)
-* [WordsAPI](www.wordsapi.com)
+- Ruby (2.3.1)
+- Rails (5.1.3)
+- [WordsAPI](www.wordsapi.com)
 
 ## Next Steps
 
-* ~~Account for unknown and misspelled words~~
-* ~~Basic API~~
-* Second draft layout and styling
- * Create stand alone client side app that uses the API
-* Contextual routing
-* Refactor for cleanliness
-* Broaden scope of API calls if necessary (add more fuzzyness until you get a reasonable set of results)
-* Cache API call results
+- ~~Account for unknown and misspelled words~~
+- ~~Basic API~~
+- Second draft layout and styling
+- Create stand alone client side app that uses the API
+- Contextual routing
+- Refactor for cleanliness
+- Broaden scope of API calls if necessary (add more fuzzyness until you get a reasonable set of results)
+- Cache API call results
 
 ## Licensing
 
